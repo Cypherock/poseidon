@@ -4,7 +4,7 @@
 
 // Check if the compiler defines int128 or if ASSEMBLY is defined, or if
 // we want ISO_C
-#if !defined(__SIZEOF_INT128__) || defined(ASSEMBLY) || defined(ISO_C)
+#if !defined(__SIZEOF_INT128__) || defined(ASSEMBLY) || defined(ISO_C) || defined (USE_SIMULATOR)
 
 ////////////////////////////////////////////////////////////////////////////////
 ///  Macros
